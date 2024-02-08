@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+  @apply px-24 py-20;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.btn-primary {
+  @apply bg-gray-700 px-10 py-2 text-white;
+}
+
+.btn-back {
+  @apply bg-orange-800 px-10 py-2 text-white;
+}
+
+.btn-link {
+  @apply rounded-md bg-slate-400 px-10 py-2 text-white transition-colors duration-300 ease-in-out hover:bg-slate-600;
+}
