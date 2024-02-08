@@ -1,5 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Accordion, Carousel, Home, RandomHexColor } from "./utils/helper";
+import {
+  Accordion,
+  Carousel,
+  Home,
+  RandomHexColor,
+  StarRating,
+} from "./utils/helper";
 
 function App() {
   return (
@@ -9,6 +15,7 @@ function App() {
         <Route path="carousel" element={<Carousel />} />
         <Route path="accordion" element={<Accordion />} />
         <Route path="hex" element={<RandomHexColor />} />
+        <Route path="rating" element={<StarRating stars={5} />} />
       </Routes>
     </BrowserRouter>
   );

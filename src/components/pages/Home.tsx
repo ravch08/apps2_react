@@ -14,6 +14,9 @@ const Home = () => {
         <Link to="hex" className="btn-link">
           Random Hex Color
         </Link>
+        <Link to="rating" className="btn-link">
+          Star Rating
+        </Link>
       </div>
     </main>
   );
