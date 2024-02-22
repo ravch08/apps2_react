@@ -17,6 +17,9 @@ const Home = () => {
         <Link to="rating" className="btn-link">
           Star Rating
         </Link>
+        <Link to="load-more" className="btn-link">
+          Load More Data
+        </Link>
       </div>
     </main>
   );
