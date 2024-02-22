@@ -1,5 +1,13 @@
 import { useEffect, useState } from "react";
+import { number, string, z } from "zod";
 import BackHome from "../features/BackHome";
+
+export const postSchema = z.object({
+  id: number(),
+  title: string().min(5, { message: "Atleast 5 characters are required!" }),
+});
+
+export type PostProps = z.infer<typeof postSchema>;
 
 const ScrollIndicator = () => {
   const [posts, setPosts] = useState([]);
@@ -52,7 +60,7 @@ const ScrollIndicator = () => {
         <div className="container">
           <div className="flex flex-wrap items-center justify-center gap-6">
             {isLoading ? <h2>Loading...</h2> : null}
-            {posts?.map((post) => (
+            {posts?.map((post: PostProps) => (
               <div
                 key={post.id}
                 className="flex h-[200px] w-[20%] flex-col items-center justify-center  gap-4 rounded-md bg-slate-200 p-6 text-center"
