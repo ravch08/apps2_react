@@ -29,6 +29,9 @@ const Home = () => {
         <Link to="scroll-indicator" className="btn-link">
           Scroll Indicator
         </Link>
+        <Link to="navtabs" className="btn-link">
+          NavTabs
+        </Link>
       </div>
     </main>
   );
