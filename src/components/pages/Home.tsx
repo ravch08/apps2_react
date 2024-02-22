@@ -20,6 +20,9 @@ const Home = () => {
         <Link to="load-more" className="btn-link">
           Load More Data
         </Link>
+        <Link to="recursive" className="btn-link">
+          Recursive Menu
+        </Link>
       </div>
     </main>
   );

@@ -5,6 +5,7 @@ import {
   Home,
   LoadMoreData,
   RandomHexColor,
+  RecursiveMenu,
   StarRating,
 } from "./utils/helper";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="accordion" element={<Accordion />} />
         <Route path="hex" element={<RandomHexColor />} />
         <Route path="load-more" element={<LoadMoreData />} />
+        <Route path="recursive" element={<RecursiveMenu />} />
         <Route path="rating" element={<StarRating stars={5} />} />
       </Routes>
     </BrowserRouter>
