@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <main className="p-20">
       <h1 className="mb-20 text-center text-4xl font-bold">React Apps</h1>
-      <div className="flex flex-wrap items-center gap-6">
+      <div className="flex flex-wrap items-center justify-center gap-6">
         <Link to="carousel" className="btn-link">
           Carousel
         </Link>
@@ -22,6 +22,9 @@ const Home = () => {
         </Link>
         <Link to="recursive" className="btn-link">
           Recursive Menu
+        </Link>
+        <Link to="qr-code" className="btn-link">
+          QR Code Generatoe
         </Link>
       </div>
     </main>

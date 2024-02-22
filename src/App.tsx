@@ -4,6 +4,7 @@ import {
   Carousel,
   Home,
   LoadMoreData,
+  QRCodeGenerator,
   RandomHexColor,
   RecursiveMenu,
   StarRating,
@@ -18,6 +19,7 @@ function App() {
         <Route path="accordion" element={<Accordion />} />
         <Route path="hex" element={<RandomHexColor />} />
         <Route path="load-more" element={<LoadMoreData />} />
+        <Route path="qr-code" element={<QRCodeGenerator />} />
         <Route path="recursive" element={<RecursiveMenu />} />
         <Route path="rating" element={<StarRating stars={5} />} />
       </Routes>
