@@ -7,6 +7,7 @@ import {
   QRCodeGenerator,
   RandomHexColor,
   RecursiveMenu,
+  ScrollIndicator,
   StarRating,
 } from "./utils/helper";
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="carousel" element={<Carousel />} />
         <Route path="accordion" element={<Accordion />} />
         <Route path="hex" element={<RandomHexColor />} />
+        <Route path="scroll-indicator" element={<ScrollIndicator />} />
         <Route path="load-more" element={<LoadMoreData />} />
         <Route path="qr-code" element={<QRCodeGenerator />} />
         <Route path="recursive" element={<RecursiveMenu />} />

@@ -26,6 +26,9 @@ const Home = () => {
         <Link to="qr-code" className="btn-link">
           QR Code Generatoe
         </Link>
+        <Link to="scroll-indicator" className="btn-link">
+          Scroll Indicator
+        </Link>
       </div>
     </main>
   );
