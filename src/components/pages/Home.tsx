@@ -32,6 +32,9 @@ const Home = () => {
         <Link to="navtabs" className="btn-link">
           NavTabs
         </Link>
+        <Link to="search-autocomplete" className="btn-link">
+          Search AutoComplete
+        </Link>
       </div>
     </main>
   );

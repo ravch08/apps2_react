@@ -9,6 +9,7 @@ import {
   RandomHexColor,
   RecursiveMenu,
   ScrollIndicator,
+  SearchAutocomplete,
   StarRating,
 } from "./utils/helper";
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="scroll-indicator" element={<ScrollIndicator />} />
         <Route path="load-more" element={<LoadMoreData />} />
         <Route path="navtabs" element={<NavTabs />} />
+        <Route path="search-autocomplete" element={<SearchAutocomplete />} />
         <Route path="qr-code" element={<QRCodeGenerator />} />
         <Route path="recursive" element={<RecursiveMenu />} />
         <Route path="rating" element={<StarRating stars={5} />} />

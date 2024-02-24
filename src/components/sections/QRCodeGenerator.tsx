@@ -22,7 +22,7 @@ const QRCodeGenerator = () => {
               autoFocus
               type="text"
               value={inputVal}
-              className="bg-slate-200 px-3 py-2"
+              className="form-input"
               onChange={(e) => setInputVal(e.target.value)}
             />
             <button type="submit" className="btn-link" onClick={generateQRCode}>

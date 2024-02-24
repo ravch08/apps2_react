@@ -23,3 +23,7 @@ section {
 .btn-link {
   @apply rounded-md bg-slate-400 px-10 py-2 text-white transition-colors duration-300 ease-in-out hover:bg-slate-600;
 }
+
+.form-input {
+  @apply w-[50%] rounded-md bg-slate-200 px-3 py-2 outline-none;
+}
