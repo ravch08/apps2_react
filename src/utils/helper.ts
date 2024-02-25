@@ -10,5 +10,7 @@ export { default as RecursiveMenu } from "../components/sections/Recursive Menu/
 export { default as ScrollIndicator } from "../components/sections/ScrollIndicator.tsx";
 export { default as SearchAutocomplete } from "../components/sections/SearchAutocomplete.tsx";
 export { default as StarRating } from "../components/sections/StarRating.tsx";
+export { default as SingleCell } from "../components/sections/TicTacToe/SingleCell.tsx";
+export { default as TicTacToe } from "../components/sections/TicTacToe/TicTacToe.tsx";
 
 export { default as Home } from "../components/pages/Home.tsx";

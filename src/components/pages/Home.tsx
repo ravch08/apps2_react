@@ -35,6 +35,9 @@ const Home = () => {
         <Link to="search-autocomplete" className="btn-link">
           Search AutoComplete
         </Link>
+        <Link to="tictactoe" className="btn-link">
+          Tic Tac Toe
+        </Link>
       </div>
     </main>
   );

@@ -11,6 +11,7 @@ import {
   ScrollIndicator,
   SearchAutocomplete,
   StarRating,
+  TicTacToe,
 } from "./utils/helper";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="scroll-indicator" element={<ScrollIndicator />} />
         <Route path="load-more" element={<LoadMoreData />} />
         <Route path="navtabs" element={<NavTabs />} />
+        <Route path="tictactoe" element={<TicTacToe />} />
         <Route path="search-autocomplete" element={<SearchAutocomplete />} />
         <Route path="qr-code" element={<QRCodeGenerator />} />
         <Route path="recursive" element={<RecursiveMenu />} />
