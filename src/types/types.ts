@@ -12,3 +12,9 @@ export type MenuListProps = {
 export type MenuItemProps = {
   menuItem: MenuProps;
 };
+
+export interface FetchDataProps<Data> {
+  data: Data | null;
+  error: string | null;
+  isLoading: boolean;
+}
